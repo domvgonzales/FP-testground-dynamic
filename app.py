@@ -31,7 +31,7 @@ def hitwords():
 
 @app.route('/contributors')
 def contributer():
-    return render_template('contributer.html')
+    return render_template('contributor.html')
 
 
 @app.route('/barcharts')
