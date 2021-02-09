@@ -39,29 +39,6 @@ def bar_2():
     return render_template('bars.html')
 
 
-# @app.route('/teamComparisons')
-# def bar_3():
-#     return render_template('bar_3.html')
-
-
-# @app.route('/easternConference')
-# def eastern():
-#     return render_template('eastern.html')
-
-
-# @app.route('/westernConference')
-# def western():
-#     return render_template('western.html')
-
-
-# @app.route('/bracketPredictions')
-# def bracker():
-#     return render_template('bracket.html')
-
-
-# @app.route('/contributors')
-# def contributor():
-#     return render_template('contributor.html')
 
 # @app.route("/spotify_data")
 # def read_spotify_hits_sql():
