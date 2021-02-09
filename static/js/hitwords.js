@@ -1,4 +1,4 @@
-d3.csv("/resources/datasets/hit_flop_words.csv").then(function(Data){
+d3.csv("/static/hit_flop_words.csv").then(function(Data){
 
     var tbody = d3.select("tbody")
     
@@ -7,7 +7,7 @@ d3.csv("/resources/datasets/hit_flop_words.csv").then(function(Data){
         
       });
     
-    // Step 2:  Use d3 to append one table row `tr` for each object
+    // // Step 2:  Use d3 to append one table row `tr` for each object
     Data.forEach(function(Data) {
         console.log(Data);
         var row = tbody.append("tr");
