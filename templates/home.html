@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <title>Spotify Hits and Flops</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap -->
@@ -21,13 +21,13 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
     <!-- CSS -->
-    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="/static/css/style.css">
 </head>
 
 <body>
     <!-- nav bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-lg-0">
-        <a class="navbar-brand" href="/">Is it a Banger?</a>
+        <a class="navbar-brand" href="/">Spotify Bangers</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
             aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -51,13 +51,18 @@
     </nav>   
     <div class="jumbotron jumbotron-fluid text-center">
         <div class="container">
-            <h1 class="display-4">Spotify Hits!</h1>
+            <div><img src="/static/png/STL.png" style="width:80px; vertical-align:sub;"/>
+                <h1 class="display-4">Spotify Hits! </h1>
+            </div>
             <p class="lead">What makes a hit? Can we use spotify song metadata to predict future chart toppers?</p>
+            
             <iframe width="560" height="315" 
             src="https://www.youtube.com/embed/IvlasC9nvu8" 
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>
             </iframe>
+
+
         </div>
     </div>
 
@@ -69,13 +74,13 @@
             <div class="col-sm-3">
                 <h6>Tableau Analysis</h6>
                 <a target="_blank" href="/barcharts">
-                    <img src="static/png/bars.PNG" class="preview" style="width:100%" alt="Tablaeu Analysis">
+                    <img src="/static/png/bars.png" class="preview" style="width:100%" alt="Tablaeu Analysis">
                 </a>
             </div>
             <div class="col-sm-3">
                 <h6>Hitwords </h6>
                 <a target="_blank" href="/hitwords">
-                    <img src="static/png/hitwords.PNG" class="preview" style="width:100%" alt="Hitwords Analysis">
+                    <img src="/static/png/hitwords.png" class="preview" style="width:100%" alt="Hitwords Analysis">
                 </a>
             </div>
         </div>
