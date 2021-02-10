@@ -1,4 +1,4 @@
-d3.csv("/static/hit_flop_words.csv").then(function(Data){
+d3.csv("/static/hit_flop_words_no_stop.csv").then(function(Data){
 
     var tbody = d3.select("tbody")
     

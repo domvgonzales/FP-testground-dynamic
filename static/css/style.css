@@ -8,6 +8,10 @@
 
 /* Style fot the website */
 
+h1 {
+    display: inline;  
+    text-align: bottom;
+}
 .navbar li {
     display: inline-block;
     margin-right: 20px;
