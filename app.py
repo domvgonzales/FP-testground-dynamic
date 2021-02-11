@@ -42,6 +42,14 @@ def bar_2():
 def bar_3():
     return render_template('bars2.html')
 
+@app.route('/billboard')
+def billboard():
+    return render_template('billboard.html')
+
+@app.route('/newmusic')
+def newmusic():
+    return render_template('newmusicplaylist.html')
+
 
 
 # @app.route("/spotify_data")
