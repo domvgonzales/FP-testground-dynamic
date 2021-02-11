@@ -28,3 +28,7 @@ h1 {
 #big{
     margin-left:100px;
 }
+
+.jumbotron jumbotron fluid_text-center{
+    background-color: #95A3B3;
+}
