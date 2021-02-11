@@ -38,6 +38,10 @@ def contributors():
 def bar_2():
     return render_template('bars.html')
 
+@app.route('/barcharts2')
+def bar_3():
+    return render_template('bars2.html')
+
 
 
 # @app.route("/spotify_data")
